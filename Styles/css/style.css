@@ -10,7 +10,8 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-image: linear-gradient(to right bottom, #f3d1e4, #eccce7, #e1c9ec, #d3c6f0, #c2c4f3, #b1c4f2, #a1c4ef, #91c3ea, #87c3df, #84c1d2, #86bfc5, #8bbcb9);
+    /* background-image: linear-gradient(to right bottom, #f3d1e4, #eccce7, #e1c9ec, #d3c6f0, #c2c4f3, #b1c4f2, #a1c4ef, #91c3ea, #87c3df, #84c1d2, #86bfc5, #8bbcb9); */
+    background-image: url(../images/18710596_rm251-mind-11-g.jpg);
 }
 
 .sombra{
