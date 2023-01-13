@@ -1,0 +1,412 @@
+[
+    {
+        "id": 1,
+        "Nombre": "Notebook E41-50",
+        "Marca": "Lenovo",
+        "Descripcion": "Core I3 1005G1 8GB 512GB SSD NVMe W10 PRO",
+        "Precio": 190.790,
+        "Stock": 1,
+        "img": "./Styles/data-img/pc.jpg"
+    },
+
+    {
+        "id": 2,
+        "Nombre": "Notebook Yoga Slim 714ITL5 FHD",
+        "Marca": "Lenovo",
+        "Descripcion": "Core I5 1135G7 8GB 512GB SSD NVMe W10 Home",
+        "Precio": 280.000,
+        "Stock": 1,
+        "img": "./Styles/data-img/pc-2.jpg"
+    },
+
+    {
+        "id": 3,
+        "Nombre": "Procesador Ryzen",
+        "Marca": "AMD",
+        "Descripcion": "Ryzen 9 5950X 4.9GHz Turbo AM4 - No incluye Cooler",
+        "Precio": 200.200,
+        "Stock": 1,
+        "img": "./Styles/data-img/proce.jpg"
+    },
+
+    {
+        "id": 4,
+        "Nombre": "Procesador Ryzen",
+        "Marca": "AMD",
+        "Descripcion": "Ryzen 9 5900X 4.8GHz Turbo AM4 - No incluye Cooler",
+        "Precio": 180.100,
+        "Stock": 1,
+        "img": "./Styles/data-img/proce-2.jpg"
+    },
+
+    {
+        "id": 5,
+        "Nombre": "Memoria Ram Notebook",
+        "Marca": "KingDian",
+        "Descripcion": "DDR4 32GB 2666MHz SODIMM",
+        "Precio": 18.770,
+        "Stock": 1,
+        "img": "./Styles/data-img/ram.jpg"
+    },
+
+    {
+        "id": 6,
+        "Nombre": "Memoria Ram",
+        "Marca": "GeiL",
+        "Descripcion": "DDR4 16GB 3000MHz Orion RGB Black",
+        "Precio": 34.650,
+        "Stock": 1,
+        "img": "./Styles/data-img/ram-2.jpg"
+    },
+
+    {
+        "id": 7,
+        "Nombre": "Placa de Video Radeon",
+        "Marca": "Asus",
+        "Descripcion": "Rx 6900 XT 16GB GDDR6 ROG STRIX OC LC",
+        "Precio": 513.700,
+        "Stock": 1,
+        "img": "./Styles/data-img/placav.jpg"
+    },
+
+    {
+        "id": 8,
+        "Nombre": "Placa de Video Radeon",
+        "Marca": "XFX",
+        "Descripcion": "RX 6800 XT CORE 16GB GDDR6 Speedster MERC 319",
+        "Precio": 260.950,
+        "Stock": 1,
+        "img": "./Styles/data-img/placav-2.jpg"
+    },
+
+    {
+        "id": 9,
+        "Nombre": "Disco Rigido",
+        "Marca": "WD",
+        "Descripcion": " 12TB Red Pro 7.2k RPM 256MB",
+        "Precio": 92.850,
+        "Stock": 1,
+        "img": "./Styles/data-img/disco.jpg"
+    },
+
+    {
+        "id": 10,
+        "Nombre": "Disco Rigido",
+        "Marca": "WD",
+        "Descripcion": "12TB Gold 7.2K RPM 256MB",
+        "Precio": 83.500,
+        "Stock": 1,
+        "img": "./Styles/data-img/disco-2.jpg"
+    },
+
+    {
+        "id": 11,
+        "Nombre": "Placa Madre",
+        "Marca": "Asrock",
+        "Descripcion": "X670E Taichi Carrara AM5",
+        "Precio": 255.150,
+        "Stock": 1,
+        "img": "./Styles/data-img/placam.jpg"
+    },
+
+    {
+        "id": 12,
+        "Nombre": "Placa Madre",
+        "Marca": "Asrock",
+        "Descripcion": "X670E Steel Legend AM5",
+        "Precio": 178.600,
+        "Stock": 1,
+        "img": "./Styles/data-img/placam-2.jpg"
+    },
+
+    {
+        "id": 13,
+        "Nombre": "Notebook IdeaPad 514IILO5 FHD",
+        "Marca": "Lenovo",
+        "Descripcion": "Core I7 1065G7 8GB SSD NVMe W10 Hombe",
+        "Precio": 270.000,
+        "Stock": 1,
+        "img": "./Styles/data-img/pc-3.jpg"
+    },
+
+    {
+        "id": 14,
+        "Nombre": "Notebook ZenBook UM425",
+        "Marca": "Asus",
+        "Descripcion": "Ryzen 5 5600H 8GB 512GB SSD NVMe W11 Home",
+        "Precio": 270.000,
+        "Stock": 1,
+        "img": "./Styles/data-img/pc-4.jpg"
+    },
+
+    {
+        "id": 15,
+        "Nombre": "Procesador Ryzen",
+        "Marca": "AMD",
+        "Descripcion": "Ryzen 7 5700X 4.6GHz Turbo AM4 - No incluye Cooler",
+        "Precio": 98.800,
+        "Stock": 1,
+        "img": "./Styles/data-img/proce-3.jpg"
+    },
+
+    {
+        "id": 16,
+        "Nombre": "Procesador Intel",
+        "Marca": "Intel",
+        "Descripcion": "Core I7 12700K 5.0GHz Turbo Socket 1700",
+        "Precio": 135.200,
+        "Stock": 1,
+        "img": "./Styles/data-img/proce-4.jpg"
+    },
+
+    {
+        "id": 17,
+        "Nombre": "Memoria Ram",
+        "Marca": "GeiL",
+        "Descripcion": "DDR4 16GB 3000MHz Orion RGB Red",
+        "Precio": 34.650,
+        "Stock": 1,
+        "img": "./Styles/data-img/ram-3.jpg"
+    },
+
+    {
+        "id": 18,
+        "Nombre": "Memoria Ram",
+        "Marca": "GeiL",
+        "Descripcion": "DDR4 16GB 3000MHz Super Luce RGB Black",
+        "Precio": 35.650,
+        "Stock": 1,
+        "img": "./Styles/data-img/ram-4.jpg"
+    },
+
+    {
+        "id": 19,
+        "Nombre": "Placa de Video Radeon",
+        "Marca": "Asrock",
+        "Descripcion": "RX 6800 XT 16GB GDDR6 Phantom Gaming D OC",
+        "Precio": 255.950,
+        "Stock": 1,
+        "img": "./Styles/data-img/placav-3.jpg"
+    },
+
+    {
+        "id": 20,
+        "Nombre": "Placa de Video GeForce",
+        "Marca": "MSI",
+        "Descripcion": "RTX 3090 24GB GDDR6X VENTUS 3X OC",
+        "Precio": 410.800,
+        "Stock": 1,
+        "img": "./Styles/data-img/placav-4.jpg"
+    },
+
+    {
+        "id": 21,
+        "Nombre": "Disco Rigido",
+        "Marca": "Seagate",
+        "Descripcion": "14TB SkyHawk AI ST14000VE0008",
+        "Precio": 71.850,
+        "Stock": 1,
+        "img": "./Styles/data-img/disco-3.jpg"
+    },
+
+    {
+        "id": 22,
+        "Nombre": "Disco Solido SSD",
+        "Marca": "T-Create",
+        "Descripcion": "M.2 5000MB/s NVMe PCI-E Gen4",
+        "Precio": 92.050,
+        "Stock": 1,
+        "img": "./Styles/data-img/disco-4.jpg"
+    },
+
+    {
+        "id": 23,
+        "Nombre": "Placa Madre",
+        "Marca": "Asrock",
+        "Descripcion": "X670E PG Lightning AM5",
+        "Precio": 175.450,
+        "Stock": 1,
+        "img": "./Styles/data-img/placam-3.jpg"
+    },
+
+    {
+        "id": 24,
+        "Nombre": "Placa Madre",
+        "Marca": "Asus",
+        "Descripcion": "Rog Maximus XIII Extreme Glacial",
+        "Precio": 313.700,
+        "Stock": 1,
+        "img": "./Styles/data-img/placam-4.jpg"
+    },
+
+    {
+        "id": 25,
+        "Nombre": "Notebook TUF FX506L",
+        "Marca": "Asus",
+        "Descripcion": "Core I5 10300H 8GB 512GB SSD NVMe GeForce GTX 1650 W11 Home",
+        "Precio": 295.000,
+        "Stock": 1,
+        "img": "./Styles/data-img/pc-5.jpg"
+    },
+
+    {
+        "id": 26,
+        "Nombre": "Notebook Vivobook M3500",
+        "Marca": "Asus",
+        "Descripcion": "Ryzen 5 5600H 8GB 512GB SSD NVMe W11 Home",
+        "Precio": 260.000,
+        "Stock": 1,
+        "img": "./Styles/data-img/pc-6.jpg"
+    },
+
+    {
+        "id": 27,
+        "Nombre": "Procesador Intel",
+        "Marca": "Intel",
+        "Descripcion": "Core I7 12700 S1700 12th Gen",
+        "Precio": 125.000,
+        "Stock": 1,
+        "img": "./Styles/data-img/proce-5.jpg"
+    },
+
+    {
+        "id": 28,
+        "Nombre": "Procesador Intel",
+        "Marca": "Intel",
+        "Descripcion": "Core I7 10700KF 5.1GHz Turbo 1200 Comet Lake",
+        "Precio": 115.500,
+        "Stock": 1,
+        "img": "./Styles/data-img/proce-6.jpg"
+    },
+
+    {
+        "id": 29,
+        "Nombre": "Memoria Ram",
+        "Marca": "Crucial",
+        "Descripcion": "DDR4 16GB 3200MHz",
+        "Precio": 41.480,
+        "Stock": 1,
+        "img": "./Styles/data-img/ram-5.jpg"
+    },
+
+    {
+        "id": 30,
+        "Nombre": "Memoria Ram",
+        "Marca": "Crucial",
+        "Descripcion": "DDR4 16GB 3200MHz Value",
+        "Precio": 43.320,
+        "Stock": 1,
+        "img": "./Styles/data-img/ram-6.jpg"
+    },
+
+    {
+        "id": 31,
+        "Nombre": "Placa de Video GeForce",
+        "Marca": "Zotac",
+        "Descripcion": "RTX 3090 24GB GDDR6X Trinity",
+        "Precio": 403.150,
+        "Stock": 1,
+        "img": "./Styles/data-img/placav-5.jpg"
+    },
+
+    {
+        "id": 32,
+        "Nombre": "Placa de Video GeForce",
+        "Marca": "Zotac",
+        "Descripcion": "RTX 3080 Ti 12GB GDDR6X Trinity",
+        "Precio": 358.500,
+        "Stock": 1,
+        "img": "./Styles/data-img/placav-6.jpg"
+    },
+
+    {
+        "id": 33,
+        "Nombre": "Disco Solido SSD",
+        "Marca": "Cardea Zero",
+        "Descripcion": "M.2 Z440 5000MB/s PCIe Gen4",
+        "Precio": 91.650,
+        "Stock": 1,
+        "img": "./Styles/data-img/disco-5.jpg"
+    },
+
+    {
+        "id": 34,
+        "Nombre": "Disco Solido SSD",
+        "Marca": "Swordfish",
+        "Descripcion": "M.2 1800MB/s NVMe PCI-e x4",
+        "Precio": 45.800,
+        "Stock": 1,
+        "img": "./Styles/data-img/disco-6.jpg"
+    },
+
+    {
+        "id": 35,
+        "Nombre": "Placa Madre",
+        "Marca": "Asus",
+        "Descripcion": "Rog Maximus XIII Extreme Z590 Eatx",
+        "Precio": 168.400,
+        "Stock": 1,
+        "img": "./Styles/data-img/placam-5.jpg"
+    },
+
+    {
+        "id": 36,
+        "Nombre": "Placa Madre",
+        "Marca": "MSI",
+        "Descripcion": "Meg Z590 ACE Socket 1200",
+        "Precio": 106.750,
+        "Stock": 1,
+        "img": "./Styles/data-img/placam-6.jpg"
+    },
+
+    {
+        "id": 37,
+        "Nombre": "Notebook Inspiron 3511 FHD",
+        "Marca": "Dell",
+        "Descripcion": "Core I7 1165G7 8GB 256Gb SSD NVMe W11 Home",
+        "Precio": 250.000,
+        "Stock": 1,
+        "img": "./Styles/data-img/pc-7.jpg"
+    },
+
+    {
+        "id": 38,
+        "Nombre": "Procesador Intel",
+        "Marca": "Intel",
+        "Descripcion": "Core I7 12700F 4.9GHz Turbo Socket 1700",
+        "Precio": 114.500,
+        "Stock": 1,
+        "img": "./Styles/data-img/proce-7.jpg"
+    },
+
+    {
+        "id": 39,
+        "Nombre": "Memoria Ram",
+        "Marca": "PNY",
+        "Descripcion": "DDR4 16GB (2x8GB) 3200MHz XLR8 Epic X RGB",
+        "Precio": 39.290,
+        "Stock": 1,
+        "img": "./Styles/data-img/ram-7.jpg"
+    },
+
+    {
+        "id": 40,
+        "Nombre": "Placa de Video GeForce",
+        "Marca": "GALAX",
+        "Descripcion": "RTX 3080 Ti 12GB GDDR6X SG 1-Click OC",
+        "Precio": 354.200,
+        "Stock": 1,
+        "img": "./Styles/data-img/placav-7.jpg"
+    },
+
+    {
+        "id": 41,
+        "Nombre": "Disco Solido SSD",
+        "Marca": "WD_Black",
+        "Descripcion": "M.2 SN770 5150MB/s NVMe PCI-E x4 Gen 4",
+        "Precio": 42.380,
+        "Stock": 1,
+        "img": "./Styles/data-img/disco-7.jpg"
+    }
+
+]
