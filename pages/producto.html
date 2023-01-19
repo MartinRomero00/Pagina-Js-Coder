@@ -12,62 +12,116 @@
     <link rel="stylesheet" href="/Styles/css/style.css">
     <title>Productos | TecnoBytes |</title>
 </head>
-  <body>
+<body>
 
-    <header class="w-full">
+  <header class="w-full">
         <a href="../index.html" class=" flex flex-row justify-center text-center mt-4">
             <h1 class="text-slate-100  text-6xl      sombra">TECNO</h1> 
             <h1 class="text-sky-500  text-6xl      sombra ">BYTES </h1>
         </a>
-    </header>
+  </header>
     
-      <nav class="bg-gradient-to-r from-sky-300 via-sky-300 to-indigo-500  rounded-full mx-40 w-auto mt-16">
-            <ul class="flex flex-row justify-evenly space-x-31 w-auto text-xl">
-                <a href="#" class="font-mono hover:text-white hover:underline decoration-1">
-                    <li> Productos </li>
-                </a>
-                    <li class="font-mono hover:text-white cursor-pointer hover:underline decoration-1"> Marcas Sponsor </li>
-                <a href="contacto.html" class="font-mono hover:text-white hover:underline decoration-1">
-                    <li> Contacto </li>
-                </a>
-            </ul>
-      </nav>
+  <nav class="bg-gradient-to-r from-sky-300 via-sky-300 to-indigo-500  rounded-full mx-40 w-auto mt-16">
+        <ul class="flex flex-row justify-evenly space-x-31 w-auto text-xl">
+            <a href="#" class="font-mono hover:text-white hover:underline decoration-1">
+              <li> Productos </li>
+            </a>
+              <li class="font-mono hover:text-white cursor-pointer hover:underline decoration-1"> Marcas Sponsor </li>
+            <a href="contacto.html" class="font-mono hover:text-white hover:underline decoration-1">
+              <li> Contacto </li>
+            </a>
+        </ul>
+  </nav>
     
 
 
     <div class="grid grid-cols-1 grid-rows-1 h-10 backdrop-blur-3xl  mt-10  px-4">
         <div class="flex justify-evenly items-center categoria  text-black  bg-white rounded-lg border-double border-orange-500 border-4 font-sans">
-            <h3 class="cursor-pointer text-base  underline hover:text-orange-400">Procesadores </h3>
-            <h3 class="cursor-pointer text-base  underline hover:text-orange-400">Placa de video </h3>
-            <h3 class="cursor-pointer text-base  underline hover:text-orange-400">Memorias Ram </h3>
-            <h3 class="cursor-pointer text-base  underline hover:text-orange-400">Discos</h3>
-            <h3 class="cursor-pointer text-base  underline hover:text-orange-400">Placa Madre </h3>
-            <h3 class="cursor-pointer text-base  underline hover:text-orange-400">Equipos y Notebooks </h3>
-            <div>
-                <label for="filtrado">Ordenar por:</label>
-                <select name="Filtro" id="filtrado">
-                    <option value="mayorP">Mayor Precio</option>
-                    <option value="menorP">Menor Precio</option>
-                </select>
-            </div>
+          <div class="dropdown relative">
+            <button class="dropdown-toggle font-medium leading-tight rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center whitespace-nowrap underline" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              Procesadores
+              <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-down" class="w-2 ml-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"> <path fill="currentColor" d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"></path></svg>
+            </button>
+            <ul class="dropdown-menu min-w-max absolute hidden bg-lime-100 text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none" aria-labelledby="dropdownMenuButton1">
+              <li>
+                <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent cursor-pointer text-center" id="intel">Intel</a>
+              </li>
+              <li>
+                <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent cursor-pointer text-center" id="amd">Amd</a>
+              </li>
+            </ul>
+          </div>
+          <div class="dropdown relative">
+            <button class="dropdown-toggle font-medium leading-tight rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center whitespace-nowrap underline" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              Placas de Video
+              <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-down" class="w-2 ml-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"> <path fill="currentColor" d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"></path></svg>
+            </button>
+            <ul class="dropdown-menu min-w-max absolute hidden bg-lime-100 text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none" aria-labelledby="dropdownMenuButton1">
+              <li>
+                <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent cursor-pointer text-center" id="intel">Nvidia</a>
+              </li>
+              <li>
+                <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent cursor-pointer text-center" id="amd">Amd</a>
+              </li>
+            </ul>
+          </div>
+          <div class="dropdown relative">
+            <button class="dropdown-toggle font-medium leading-tight rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center whitespace-nowrap underline" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              Memorias Ram
+            </button>
+          </div>
+          <div class="dropdown relative">
+            <button class="dropdown-toggle font-medium leading-tight rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center whitespace-nowrap underline" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              Discos
+            </button>
+          </div>
+          <div class="dropdown relative">
+            <button class="dropdown-toggle font-medium leading-tight rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center whitespace-nowrap underline" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              Placa Madre
+              <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-down" class="w-2 ml-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"> <path fill="currentColor" d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"></path></svg>
+            </button>
+            <ul class="dropdown-menu min-w-max absolute hidden bg-lime-100 text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none" aria-labelledby="dropdownMenuButton1">
+              <li>
+                <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent cursor-pointer text-center" id="intel">Intel</a>
+              </li>
+              <li>
+                <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent cursor-pointer text-center" id="amd">Amd</a>
+              </li>
+            </ul>
+          </div>
+          <div class="dropdown relative">
+            <button class="dropdown-toggle font-medium leading-tight rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center whitespace-nowrap underline" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              Equipos y Notebooks
+            </button>
+          </div>
+          <div>
+            <label for="filtrado">Ordenar por:</label>
+            <select name="Filtro" id="filtrado">
+              <option value="mayorP">Mayor Precio</option>
+              <option value="menorP">Menor Precio</option>
+            </select>
+          </div>
         </div>
     </div>
 
-    <div class="flex justify-evenly flex-wrap my-4">
-      <div class="flex flex-row md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg my-2">
-        <img class="mt-10 h-52 " src="../Styles/data-img/ram.jpg" alt="" />
-        <div class="p-6 flex flex-col justify-start">
-          <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
-          <p class="text-gray-700 text-base mb-4">
-            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-          </p>
-          <h5 class="text-cyan-500 text-lg"> $20.600</h5>
-          <div class="flex space-x-2 justify-center">
-            <button id="sumar" type="button" class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
-          </div>
-        </div>
-      </div>
-    </div>
+ <div class="flex justify-evenly flex-wrap   my-4" id="printf">
+   <!-- <div class="flex justify-evenly flex-wrap my-4">
+     <div class="flex flex-row md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg my-2">
+       <img class="mt-10 h-52 " src="../Styles/data-img/ram.jpg" alt="" />
+       <div class="p-6 flex flex-col justify-start">
+         <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
+         <p class="text-gray-700 text-base mb-4">
+           This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+         </p>
+         <h5 class="text-cyan-500 text-lg"> $20.600</h5>
+         <div class="flex space-x-2 justify-center">
+           <button id="sumar" type="button" class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+         </div>
+       </div>
+     </div>
+   </div> -->
+ </div>
+    
 
     
 
@@ -82,8 +136,8 @@
     </div>
 
 
-    <footer class="text-center text-white mt-2" style="background-color: #f1f1f1;">
-        <div class="pt-9">
+    <footer class="text-center text-white mt-2" style="background-color: #e0dbdb;">
+        <div class="pt-9 h-16">
           <div class="flex justify-center mb-9">
             <a href="https://www.facebook.com/TecnopolisSJ" class="mr-9 text-gray-800" target="_blank">
               <svg
@@ -160,5 +214,7 @@
           © Copyright
         </div>
     </footer>
-  </body>
+    <script src="/app.js"></script>
+    <script src="/components/returnProducts.js"></script>
+</body>
 </html>
