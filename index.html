@@ -229,10 +229,18 @@
     </div>
 
     <div class="w-16 fixed bottom-0 left-2">
-        <button id="">
-            <img src="Styles/images/carrito.png" alt="carrito" class=" relative top-4">
-            <p class="w-10 relative bottom-16 left-10 text-2xl rounded-full bg-red-500 text-white">0</p>
+        <button id="abrirModal">
+          <img src="../Styles/images/carrito.png" alt="carritos" class=" relative top-4">
+          <p class="w-10 relative bottom-16 left-10 text-2xl rounded-full bg-red-500 text-white">0</p>
         </button>
+    </div>
+
+    <div id="ventanaModal" class="modal">
+      <div class="contenido-modal">
+          <span class="cerrar">&times;</span>
+          <h2>Ventana modal</h2>
+          <p>Esto es el texto de la ventana</p>
+      </div>
     </div>
 
 
@@ -317,6 +325,7 @@
 
 
 
-
+    <script src="/app.js"></script>
+    <script src="/components/returnProducts.js"></script>
 </body>
 </html>

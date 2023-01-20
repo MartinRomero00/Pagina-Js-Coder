@@ -1,7 +1,7 @@
 const getData = async () => {
     const resp = await fetch('/components/products/stock.json');
     const data = await resp.json()
-
+    
     return data
 };
 
@@ -33,4 +33,3 @@ const print = async () => {
 
 
 print()
-
