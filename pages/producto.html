@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="/Styles/css/style.css">
     <title>Productos | TecnoBytes |</title>
@@ -37,74 +38,16 @@
 
     <div class="grid grid-cols-1 grid-rows-1 h-10 backdrop-blur-3xl  mt-10  px-4">
         <div class="flex justify-evenly items-center categoria  text-black  bg-white rounded-lg border-double border-orange-500 border-4 font-sans">
-          <div class="dropdown relative">
-            <button class="dropdown-toggle font-medium leading-tight rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center whitespace-nowrap underline" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-              Procesadores
-              <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-down" class="w-2 ml-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"> <path fill="currentColor" d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"></path></svg>
-            </button>
-            <ul class="dropdown-menu min-w-max absolute hidden bg-lime-100 text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none" aria-labelledby="dropdownMenuButton1">
-              <li>
-                <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent cursor-pointer text-center" id="intel">Intel</a>
-              </li>
-              <li>
-                <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent cursor-pointer text-center" id="amd">Amd</a>
-              </li>
-            </ul>
-          </div>
-          <div class="dropdown relative">
-            <button class="dropdown-toggle font-medium leading-tight rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center whitespace-nowrap underline" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-              Placas de Video
-              <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-down" class="w-2 ml-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"> <path fill="currentColor" d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"></path></svg>
-            </button>
-            <ul class="dropdown-menu min-w-max absolute hidden bg-lime-100 text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none" aria-labelledby="dropdownMenuButton1">
-              <li>
-                <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent cursor-pointer text-center" id="intel">Nvidia</a>
-              </li>
-              <li>
-                <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent cursor-pointer text-center" id="amd">Amd</a>
-              </li>
-            </ul>
-          </div>
-          <div class="dropdown relative">
-            <button class="dropdown-toggle font-medium leading-tight rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center whitespace-nowrap underline" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-              Memorias Ram
-            </button>
-          </div>
-          <div class="dropdown relative">
-            <button class="dropdown-toggle font-medium leading-tight rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center whitespace-nowrap underline" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-              Discos
-            </button>
-          </div>
-          <div class="dropdown relative">
-            <button class="dropdown-toggle font-medium leading-tight rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center whitespace-nowrap underline" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-              Placa Madre
-              <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-down" class="w-2 ml-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"> <path fill="currentColor" d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"></path></svg>
-            </button>
-            <ul class="dropdown-menu min-w-max absolute hidden bg-lime-100 text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none" aria-labelledby="dropdownMenuButton1">
-              <li>
-                <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent cursor-pointer text-center" id="intel">Intel</a>
-              </li>
-              <li>
-                <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent cursor-pointer text-center" id="amd">Amd</a>
-              </li>
-            </ul>
-          </div>
-          <div class="dropdown relative">
-            <button class="dropdown-toggle font-medium leading-tight rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out flex items-center whitespace-nowrap underline" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-              Equipos y Notebooks
-            </button>
-          </div>
-          <div>
-            <label for="filtrado">Ordenar por:</label>
-            <select name="Filtro" id="filtrado">
-              <option value="mayorP">Mayor Precio</option>
-              <option value="menorP">Menor Precio</option>
-            </select>
-          </div>
+            <button class="underline" id="Procesador"> Procesadores </button>
+            <button class="underline" id="Placa de Video"> Placas de Video </button>
+            <button class="underline" id="Memoria Ram"> Memorias Ram </button>
+            <button class="underline" id="Disco"> Discos </button>
+            <button class="underline" id="Placam"> Placa Madre </button>
+            <button class="underline" id="Equipo"> Equipos y Notebooks </button>
         </div>
     </div>
 
- <div class="flex justify-evenly flex-wrap   my-4" id="printf">
+ <div class="flex justify-evenly flex-wrap my-4" id="printf">
    <!-- <div class="flex justify-evenly flex-wrap my-4">
      <div class="flex flex-row md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg my-2">
        <img class="mt-10 h-52 " src="../Styles/data-img/ram.jpg" alt="" />
@@ -131,15 +74,21 @@
     <div class="w-16 fixed bottom-0 left-2">
         <button id="abrirModal">
           <img src="../Styles/images/carrito.png" alt="carritos" class=" relative top-4">
-          <p class="w-10 relative bottom-16 left-10 text-2xl rounded-full bg-red-500 text-white">0</p>
+          <p class="w-10 relative bottom-16 left-10 text-2xl rounded-full bg-red-500 text-white" id="contador">0</p>
         </button>
     </div>
 
     <div id="ventanaModal" class="modal">
       <div class="contenido-modal">
+        <h2 class="text-center font-mono underline">Carrito</h2>
           <span class="cerrar">&times;</span>
-          <h2>Ventana modal</h2>
-          <p>Esto es el texto de la ventana</p>
+          <div id="contenedorCarrito">
+            <!-- <p class="flex justify-around ml-8 text-center">Esto es el texto de la ventana <span class="text-blue-600">$3123</span></p>
+            <p class="text-center flex justify-end mr-10" id="cantCarrito">Cantidad: </p>
+            <button type="button" class=" px-6 py-2.5 bg-red-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-red-700 hover:shadow-lg focus:bg-red-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-red-800 active:shadow-lg transition duration-150 ease-in-out" id="eliminar">Eliminar</button> -->
+          </div>
+          <p class="text-end">Precio Total: $ <span id="precioTotal"></span></p>
+          <button class="relative inset-x-3/4 mt-10 inset-y-auto bg-green-500 text-white font-medium text-center uppercase rounded-full leading-tight" id="continuar">Continuar con la Compra</button>
       </div>
     </div>
 
@@ -221,7 +170,7 @@
           © Copyright
         </div>
     </footer>
-    <script src="../app.js"></script>
     <script src="../components/returnProducts.js"></script>
+    <script src="../app.js"></script>
 </body>
 </html>
