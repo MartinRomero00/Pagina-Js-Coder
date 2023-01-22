@@ -25,6 +25,15 @@ const btnCompra = document.getElementById("printf");
 btnCompra.addEventListener("click" ,(e) => {
     if (e.target.classList.contains ("lol")) {
         validarProductoCarrito(e.target.id)
+      
+      Toastify({
+        text: "Producto Agregado",
+        duration: 3000.,
+        gravity: 'bottom',
+        position: 'right',
+        
+        }).showToast();
+  
     }
 });
 
@@ -68,6 +77,7 @@ const actualizarTotalCarrito =  (carrito) => {
     console.log(totalCompra);
 
     pintarTotalesCarrito(totalCantidad, totalCompra);
+    guardarStorage(carrito);
 };
 
 
@@ -381,3 +391,32 @@ const pintarFiltroEquipo = async (filtroEquipo) => {
     contenedor.appendChild(div);
     });
 };
+
+
+const sponsor = document.getElementById("sponsor");
+
+sponsor.addEventListener("click" , () => {
+  Swal.fire({
+    imageUrl: '/Styles/images/sponsor.png',
+    imageHeight: 220,
+  })
+})
+
+const guardarStorage = (carrito) => {
+  localStorage.setItem('carrito', JSON.stringify(carrito));
+};
+
+const obtenerStorage = () => {
+  const carritoStorage = JSON.parse(localStorage.getItem('carrito'));
+  return carritoStorage
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+  print()
+
+  if (localStorage.getItem('carrito')) {
+    carrito = obtenerStorage();
+    actualizarCarrito(carrito);
+    actualizarTotalCarrito(carrito)
+  }
+})

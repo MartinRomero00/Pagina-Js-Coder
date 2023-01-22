@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="/Styles/css/style.css">
     <title>Contacto | TecnoBytes |</title>
@@ -26,7 +27,7 @@
             <a href="producto.html" class="font-mono hover:text-white hover:underline decoration-1">
                 <li> Productos </li>
             </a>
-                <li class="font-mono hover:text-white cursor-pointer hover:underline decoration-1"> Marcas Sponsor </li>
+                <li class="font-mono hover:text-white cursor-pointer hover:underline decoration-1" id="sponsor"> Marcas Sponsor </li>
             <a href="#" class="font-mono hover:text-white hover:underline decoration-1">
                 <li> Contacto </li>
             </a>
@@ -34,7 +35,7 @@
   </nav>
 
   <section class="p-6 dark:text-gray-100">
-    <form novalidate="" class="container w-full max-w-xl p-8 mx-auto space-y-6 rounded-md shadow dark:bg-gray-900 ng-untouched ng-pristine ng-valid">
+    <form novalidate="" class="container w-full max-w-xl p-8 mx-auto space-y-6 rounded-md shadow dark:bg-gray-900 ng-untouched ng-pristine ng-valid" id="form">
         <h2 class="w-full text-3xl font-bold leading-tight">Contacto</h2>
         <div>
           <label for="name" class="block mb-1 ml-1">Nombre</label>
@@ -141,7 +142,6 @@
 
 
 
-  <script src="../app.js"></script>
-  <script src="../components/returnProducts.js"></script>
+  <script src="../components/contacto.js"></script>
 </body>
 </html>
